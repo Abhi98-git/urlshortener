@@ -7,6 +7,7 @@ if ($route == "/health") {
   echo json_encode(["msg" => "OK"]);
   exit();
 }
+
 $MONGO_USER = $_ENV["MONGO_USER"];
 $MONGO_PASSWORD = $_ENV["MONGO_PASSWORD"];
 $MONGO_SERVER = $_ENV["MONGO_SERVER"];
