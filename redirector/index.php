@@ -23,6 +23,7 @@ $coll = $client->$MONGO_DB->$MONGO_COLLECTION;
 
 $result = $coll->findOne([ "route" => $route ]);
 
+
 if ($result != null) {
   header("Location: ".$result["url"]);
   exit();

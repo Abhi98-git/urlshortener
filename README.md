@@ -16,6 +16,7 @@ If using podman, you can start the services with
 podman-compose up
 ```
 
+
 NOTE: On the first start, this process might take a few minutes.
 
 ### Restarts

@@ -10,6 +10,7 @@ router.get("/", function(req, res, next) {
   res.send({msg: "Hello"}).status(200);
 });
 
+
 router.get("/health", async (req, res) => {
   let dbStatus = false;
   console.log("Testing database connection");

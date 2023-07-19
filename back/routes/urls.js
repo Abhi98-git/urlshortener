@@ -18,6 +18,7 @@ router.get('/', async (req, res) => {
   res.send(routes).status(200);;
 });
 
+
 router.post("/", async (req, res) => {
   let document = {
     route: req.body.route,
